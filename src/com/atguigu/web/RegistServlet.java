@@ -20,7 +20,7 @@ public class RegistServlet extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String email = req.getParameter("email");
-        String code = req.getParameter("code11");
+        String code = req.getParameter("codezlm");
 //        2.检查验证码是否正确 === 写死，要求验证码为：abcde（后期验证时再改成活的）
         if ("abcde".equalsIgnoreCase(code)){
 //            正确
